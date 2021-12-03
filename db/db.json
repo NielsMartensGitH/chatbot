@@ -1,0 +1,39 @@
+{
+  "answers": [
+    {
+      "id": 1,
+      "keyword": "niels",
+      "answer": "Niels is een Full Stack Developer"
+    },
+    {
+      "id": 2,
+      "keyword": "hallo",
+      "answer": "Hey, hoe gaat het met je?"
+    },
+    {
+      "id": 3,
+      "keyword": "laat",
+      "answer": "timeFunc"
+    },
+    {
+      "id": 4,
+      "keyword": "ziens",
+      "answer": "Fijne dag verder!"
+    },
+    {
+      "id": 5,
+      "keyword": "goed",
+      "answer": "Fijn om te horen dat het goed gaat!"
+    },
+    {
+      "id": 6,
+      "keyword": "hey",
+      "answer": "Hey, hoe gaat het met je?"
+    },
+    {
+      "id": 7,
+      "keyword": "met jou",
+      "answer": "Met mij gaat het prima!"
+    }
+  ]
+}

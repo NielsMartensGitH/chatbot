@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.messagebox {
+    height: 90vh;
+    overflow: scroll;
+    overflow-x: hidden
+}
+
+.inputbox {
+    height: 10vh;
+}
+
+.click {
+    cursor: pointer;
+}
+
+
