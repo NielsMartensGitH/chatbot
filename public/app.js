@@ -82,6 +82,7 @@ async function botAnswer(message) {
                     </div>
                 `
                 chatbox.innerHTML += messageBlock; }, 1000);
+                scroller();
         } else if (answer == "timeFunc") {
             isTyping()
             typing.innerHTML = ""
@@ -96,6 +97,7 @@ async function botAnswer(message) {
                 </div>
             `
             chatbox.innerHTML += messageBlock;
+            scroller();
              }, 1000);
         } 
         else {
@@ -108,6 +110,7 @@ async function botAnswer(message) {
                 </div>
             `
             chatbox.innerHTML += messageBlock;
+            scroller();
              }, 1000);
         }
     } catch(error) {
@@ -133,3 +136,7 @@ function isTyping() {
 
 }
 
+function scroller() {
+    const boxScroll = document.getElementById("messagebox")
+            boxScroll.scrollTo(0,boxScroll.scrollHeight);
+}
